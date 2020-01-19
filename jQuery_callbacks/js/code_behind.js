@@ -5,7 +5,9 @@ function on_ready() {
 }
 
 function btnToggle_click() {
-    $('#firstdiv').fadeToggle(5000, function() {
-        alert("division is faded");
-    });
+    // $('#firstdiv').fadeToggle(5000, function() {
+    //     alert("division is faded");
+    // });
+
+    $('#firstdiv').slideUp().slideDown().fadeOut().fadeIn();
 }

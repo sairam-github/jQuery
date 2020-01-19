@@ -1,0 +1,13 @@
+.mydivs {
+   border: 2px solid blueviolet;
+   padding: 10px;
+   margin: 5px;
+}
+
+#btn1 {
+   margin-left: 5px;
+}
+
+div p {
+   color: darkcyan;
+}
